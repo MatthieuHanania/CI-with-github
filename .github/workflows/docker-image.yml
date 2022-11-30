@@ -24,5 +24,5 @@ jobs:
           password: ${{ secrets.DOCKER_TOKEN }}
         
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag matthieuhan/mlops:tagname | docker push matthieuhan/mlops:tagname
+      run: docker build . --file Dockerfile --tag matthieuhan/mlops:latest | docker push matthieuhan/mlops:latest
             
