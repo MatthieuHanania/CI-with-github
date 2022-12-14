@@ -25,6 +25,7 @@ app = Flask(__name__)
 ## Routes
 ##########################################################################
 
+
 @app.route("/")
 def home():
     return render_template("home.html")
