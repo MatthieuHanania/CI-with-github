@@ -13,4 +13,8 @@ python -m unittest
 
 
 
+I add the jekins file. So everytime I update the github, jenkins gets a notification
+
+ ![Screenshot](screenshot1.png)
+
 
